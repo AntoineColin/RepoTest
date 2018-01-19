@@ -4,6 +4,7 @@ public class Chaussettes{
 	boolean chaudes;
 	boolean sales;
 	
+	
 	public Chaussettes(){
 		chaudes = true;
 		sales = false;
@@ -12,5 +13,6 @@ public class Chaussettes{
 	public static void main(String[] args){
 		System.out.println("les chaussettes sont elles chaudes ?");
 		System.out.println(new Chaussettes().chaudes);
+		System.out.println("mais elle grattent");
 	}
 }
