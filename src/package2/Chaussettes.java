@@ -1,10 +1,12 @@
 package package2;
 
-public class Chaussettes {
+public class Chaussettes{
 	boolean chaudes;
+	boolean sales;
 	
 	public Chaussettes(){
 		chaudes = true;
+		sales = false;
 	}
 	
 	public static void main(String[] args){
